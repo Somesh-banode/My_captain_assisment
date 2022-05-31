@@ -1,0 +1,29 @@
+# include <conio.h>
+# include <stdio.h>
+ main()
+{
+	printf("I have a surprise for u\n plz enter any number from 1 to 5  ");
+	int item=0;
+	scanf("%d",&item);
+	switch(item)
+	 {
+	 	case 1:
+	 		printf("Dosa \n Rs.60/-");
+	 		break;
+	 	case 2:
+	 		printf("Idlli \n Rs.30/-");
+	 		break;
+	 	case 3:
+	 		printf("Sambarwada \n Rs.30/-");
+	 		break;
+	 	case 4:
+	 		printf("Appe \n Rs.50/-");
+	 		break;
+	 	case 5:
+	 		printf("Dhokla \n Rs.75/-");
+	 		break;
+	 	default :
+	 		printf("invalid choice");
+	
+	 }
+}
